@@ -28,3 +28,35 @@ This project showcases a real-time logistics performance monitoring dashboard bu
 - 🗂️ **SQL Workflows**:
   - Data cleaning, joining, and transformation using multiple related tables
   - Created views and queries for real-time refresh in Power BI
+
+## 📁 Project Structure
+📂 Logistics-KPI-Dashboard
+│
+├── dataset/
+│   └── Logistics_KPI_Dashboard_Dataset.xlsx   # Sample dataset
+│
+├── sql/
+│   └── logistics_queries.sql                  # SQL scripts for analysis
+│
+├── powerbi/
+│   └── dashboard.pbix                         # Power BI dashboard file
+│
+└── README.md                                  # Project documentation
+
+🗄️ SQL Queries Included
+
+Some example queries used in this project:
+	•	Average Delivery Time by Region
+	•	Fulfillment Status Distribution
+	•	SKU-wise Inventory Usage
+	•	Stock Turnover Analysis
+	•	Safety Stock Breach Alerts
+
+⸻
+
+📈 Power BI Dashboard Highlights
+	•	Regional performance comparison
+	•	Inventory utilization tracking
+	•	On-time vs delayed deliveries trend
+	•	Interactive drilldowns for SKU, Region, Fulfillment
+	•	Trend analysis with automated alerts
