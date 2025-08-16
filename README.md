@@ -36,35 +36,13 @@ This project showcases a real-time logistics performance monitoring dashboard bu
 │   └── Logistics_KPI_Dashboard_Dataset.xlsx   # Sample dataset
 │
 ├── sql/
-│   └── logistics_queries.sql                  # SQL scripts for analysis
+│   └── KPI_Queries.sql                  # SQL scripts for analysis
 │
 ├── powerbi/
 │   └── dashboard.pbix                         # Power BI dashboard file
 │
 └── README.md                                  # Project documentation
-
----
-
-## ⚙️ Setup Instructions
-
-```bash
-1. Clone the Repository
-git clone https://github.com/your-username/Logistics-KPI-Dashboard.git
-cd Logistics-KPI-Dashboard
-
-3. Database Setup
-	1.	Open your SQL environment (e.g., SQL Server, PostgreSQL, MySQL).
-	2.	Create a new database for logistics KPIs.
-	3.	Import and run the scripts from the sql/logistics_queries.sql file to generate insights from the dataset.
-
-4. Power BI Setup
-	1.	Open Power BI Desktop.
-	2.	Load the dataset from dataset/Logistics_KPI_Dashboard_Dataset.xlsx.
-	3.	Open the powerbi/dashboard.pbix file to view the pre-built dashboard.
-	4.	Refresh the data connection and explore.
-
 ⸻
-
 📈 Key KPIs Tracked
 	•	Average Delivery Time by Region
 	•	Fulfillment Status Distribution
@@ -89,6 +67,3 @@ cd Logistics-KPI-Dashboard
 
 ⸻
 
-🤝 Contributing
-
-Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to update.
