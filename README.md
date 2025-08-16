@@ -28,7 +28,3 @@ This project showcases a real-time logistics performance monitoring dashboard bu
 - 🗂️ **SQL Workflows**:
   - Data cleaning, joining, and transformation using multiple related tables
   - Created views and queries for real-time refresh in Power BI
-
----
-
-## 📁 Project Structure
