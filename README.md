@@ -43,20 +43,52 @@ This project showcases a real-time logistics performance monitoring dashboard bu
 │
 └── README.md                                  # Project documentation
 
-🗄️ SQL Queries Included
+---
 
-Some example queries used in this project:
-	•	Average Delivery Time by Region
-	•	Fulfillment Status Distribution
-	•	SKU-wise Inventory Usage
-	•	Stock Turnover Analysis
-	•	Safety Stock Breach Alerts
+## ⚙️ Setup Instructions
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/your-username/Logistics-KPI-Dashboard.git
+cd Logistics-KPI-Dashboard
+
+2. Database Setup
+	1.	Open your SQL environment (e.g., SQL Server, PostgreSQL, MySQL).
+	2.	Create a new database for logistics KPIs.
+	3.	Import and run the scripts from the sql/logistics_queries.sql file to generate insights from the dataset.
+
+3. Power BI Setup
+	1.	Open Power BI Desktop.
+	2.	Load the dataset from dataset/Logistics_KPI_Dashboard_Dataset.xlsx.
+	3.	Open the powerbi/dashboard.pbix file to view the pre-built dashboard.
+	4.	Refresh the data connection and explore.
 
 ⸻
 
-📈 Power BI Dashboard Highlights
-	•	Regional performance comparison
-	•	Inventory utilization tracking
-	•	On-time vs delayed deliveries trend
-	•	Interactive drilldowns for SKU, Region, Fulfillment
-	•	Trend analysis with automated alerts
+📈 Key KPIs Tracked
+	•	Average Delivery Time by Region
+	•	Fulfillment Status Distribution
+	•	SKU-wise Inventory Usage
+	•	Order Cycle Time Analysis
+	•	Inventory Stock Levels vs Reorder Point
+	•	On-Time Delivery % and Backorder Rate
+
+⸻
+
+🛠️ Tech Stack
+	•	SQL – Data extraction, transformation, and querying
+	•	Power BI – Dashboard design and interactive reporting
+	•	Excel – Sample dataset storage and preparation
+
+⸻
+
+🚀 Future Improvements
+	•	Automating data refresh with live SQL connections
+	•	Adding machine learning predictions for delivery delays
+	•	Expanding dataset with cost and revenue metrics
+
+⸻
+
+🤝 Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to update.
